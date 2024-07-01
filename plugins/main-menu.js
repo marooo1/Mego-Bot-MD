@@ -10,10 +10,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     if (device !== 'desktop' || device !== 'web') {      
         var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/e7f49bd7c3aad2f429044.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
-            body: { text: `test`.trim() },
+            body: { text: `.`.trim() },
             footer: { text: `*𝙏𝙝𝙚𝙈𝙫𝙧𝙤-𝘽𝙤𝙩*`.trim() },  
             header: {
-                title: `*┃━━━━━⬣𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⬣━━━━━┃*\n\n*◞❐نورت يا حب بوت مارو🤺🔥*\n\n*◞❐ تفضل القائمة يا  :* @${mentionId.split('@')[0]}\n\n*◞❐اسم البوت : بوت مـارو*\n\n*◞❐موقع التنصيب : heroku*\n\n*◞❐البوت يعمل في الخاص والجروبات*\n\n*◞❐يمنع شتم البوت*\n\n*┃━━━━━⬣𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⬣━━━━━┃*`,
+                title: `*⎔⋅• ┏╼╃✦⊰⟦𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⟧⊱✦╄╾┓ •⋅⎔*\n\n*◞❐نورت يا حب بوت مارو🤺🔥*\n\n*◞❐ تفضل القائمة يا  :* @${mentionId.split('@')[0]}\n\n*◞❐اسم البوت : بوت مـارو*\n\n*◞❐موقع التنصيب : heroku*\n\n*◞❐البوت يعمل في الخاص والجروبات*\n\n*◞❐يمنع شتم البوت*\n\n*◞❐لينك المطور : https://tiny.one/42kpap54*\n\n*⎔⋅• ┗╼╃✦⊰⟦𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⟧⊱✦╄╾┛ •⋅⎔*`,
                 subtitle: ``,
                 hasMediaAttachment: true,
                 imageMessage: joanimiimg.imageMessage,
@@ -23,11 +23,11 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   							{
   								name: 'single_select',
   						  	buttonParamsJson: JSON.stringify({
-  						  		title: '⌝قـائـمـه الاوامـر⌞',
+  						  		title: '【..≼قـائـمـه الاوامـر≽..】',
   						  		sections: [
   						  			{
   						  				title: 'List',
-  							  	    highlight_label: 'ON',
+  							  	    highlight_label: '',
   						  		    rows: [
   						  		    	{
   						  		    		header: '【..≼قــســم الجروبات≽..】',
@@ -38,7 +38,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		    ]
   						  			},
   						  			{
-  						  				highlight_label: 'ON',
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الاعضاء≽..】',
@@ -49,7 +49,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
   						        	},
   						  			{
-  						  				highlight_label: 'ON',
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الانــمـــي≽..】',
@@ -60,7 +60,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                     },
   						  			{
-  						  				highlight_label: 'ON',
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الترفيه≽..】',
@@ -71,7 +71,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
   						  			{
-  						  				highlight_label: 'ON',
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الايديت والصور≽..】',
@@ -82,7 +82,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
   						  			{
-  						  				highlight_label: 'ON',
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم التحويلات≽..】',
@@ -93,7 +93,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
   						  			{
-  						  				highlight_label: 'ON',
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الادوات≽..】',
@@ -103,25 +103,104 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		    	}
   						  				]
                                         },
-  						  			{
-  						  				highlight_label: 'ON',
+                                    {
+  						  				highlight_label: '',
   						  				rows: [
-  						  					{
-  						  		    		header: '【..≼قــســم الدين≽..】',
+  						  			{
+  						  		    		header: '【..≼قــســم الــتــصــامـيـم≽..】',
   										      title: '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃',
-  									    	  description: '【..≼قــســم الدين≽..】',
-  								    		  id: '.الدين'
+  									    	  description: '【..≼قــســم الــتــصــامـيـم≽..】',
+  								    		  id: '.تصاميم'
   						  		    	}
   						  				]
                                         },
-  						  			{
-  						  				highlight_label: 'ON',
+{
+  						  				highlight_label: '',
   						  				rows: [
-  						  					{
+  						  			{
   						  		    		header: '【..≼قــســم الذكاء الاصطناعي≽..】',
   										      title: '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃',
   									    	  description: '【..≼قــســم الذكاء الاصطناعي≽..】',
   								    		  id: '.ذكاءاصطناعي'
+  						  		    	}
+  						  				]
+                                        },
+                                    {
+  						  				highlight_label: '',
+  						  				rows: [
+  						  					{
+  						  		    		header: '【..≼قــسم الصــوتيـــات≽..】',
+  										      title: '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃',
+  									    	  description: '【..≼قــسم الصــوتيـــات≽..】',
+  								    		  id: '.الاصوات'
+  						  		    	}
+  						  				]
+                                        },
+                                    {
+  						  				highlight_label: '',
+  						  				rows: [
+  						  					{
+  						  		    		header: '【..≼قــســم الـتـحـمـيـلات≽..】',
+  										      title: '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃',
+  									    	  description: '【..≼قــســم الـتـحـمـيـلات≽..】',
+  								    		  id: '.التحميلات'
+  						  		    	}
+  						  				]
+                                        },
+                                    {
+  						  				highlight_label: '',
+  						  				rows: [
+  						  					{
+  						  		    		header: '【..≼قــســم الـبـنـك≽..】',
+  										      title: '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃',
+  									    	  description: '【..≼قــســم الـبـنـك≽..】',
+  								    		  id: '.البنك'
+  						  		    	}
+  						  				]
+                                        },
+
+{
+  						  				highlight_label: '',
+  						  				rows: [
+  						  			{
+  						  		    		header: '【..≼قــســم الـريـاكـشـانـات≽..】',
+  										      title: '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃',
+  									    	  description: '【..≼قــســم الـريـاكـشـانـات≽..】',
+  								    		  id: '.رياكشنات'
+  						  		    	}
+  						  				]
+                                        },
+
+  						  			{
+  						  				highlight_label: '',
+  						  				rows: [
+  						  					{
+  						  		    		header: '【..≼قــسم الـديـن≽..】',
+  										      title: '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃',
+  									    	  description: '【..≼قــسم الـديـن≽..】',
+  								    		  id: '.الدين'
+  						  		    	}
+  						  				]
+                                        },
+                                    {
+  						  				highlight_label: '【..≼الـمـطـور فـقـط≽..】'',
+  						  				rows: [
+  						  					{
+  						  		    		header: '【..≼قــســم الـمـطـور≽..】',
+  										      title: '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃',
+  									    	  description: '【..≼قــســم الـمـطـور≽..】',
+  								    		  id: '.قائمتي'
+  						  		    	}
+  						  				]
+                                        },
+  						  			{
+  						  				highlight_label: '【..≼كـل اقـسـام الـبـوت≽..】'',
+  						  				rows: [
+  						  					{
+  						  		    		header: '【..≼جـمـيـع الاقـسـام≽..】',
+  										      title: '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃',
+  									    	  description: '【..≼جـمـيـع الاقـسـام≽..】',
+  								    		  id: '.المهام'
   						  		    	}
   						  				]
   						  			}
@@ -138,8 +217,8 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                               {
                                   name: 'cta_url',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: 'منصاتي🤺🔥',
-                                      url: 'https://www.atom.bio/safrotbob-376',
+                                      display_text: '【..≼كـل الـلـي يـخـصـنـي≽..】',
+                                      url: 'https://www.atom.bio/m_vro1',
                                       merchant_url: ''
                                   })
                               },
