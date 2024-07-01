@@ -10,8 +10,8 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     if (device !== 'desktop' || device !== 'web') {      
         var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/e7f49bd7c3aad2f429044.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
-            body: { text: `.`.trim() },
-            footer: { text: `*𝙏𝙝𝙚𝙈𝙫𝙧𝙤-𝘽𝙤𝙩*`.trim() },  
+            body: { text: `test`.trim() },
+            footer: { text: `*𝙈𝙑𝙍𝙊𝘽𝙊𝙏_𝙈𝘿*`.trim() },  
             header: {
                 title: `*⎔⋅• ┏╼╃✦⊰⟦𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⟧⊱✦╄╾┓ •⋅⎔*\n\n*◞❐نورت يا حب بوت مارو🤺🔥*\n\n*◞❐ تفضل القائمة يا  :* @${mentionId.split('@')[0]}\n\n*◞❐اسم البوت : بوت مـارو*\n\n*◞❐موقع التنصيب : heroku*\n\n*◞❐البوت يعمل في الخاص والجروبات*\n\n*◞❐يمنع شتم البوت*\n\n*◞❐لينك المطور : https://tiny.one/42kpap54*\n\n*⎔⋅• ┗╼╃✦⊰⟦𝙼𝚅𝚁𝙾-𝙱𝙾𝚃⟧⊱✦╄╾┛ •⋅⎔*`,
                 subtitle: ``,
@@ -27,7 +27,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		sections: [
   						  			{
   						  				title: 'List',
-  							  	    highlight_label: 'yas',
+  							  	    highlight_label: '',
   						  		    rows: [
   						  		    	{
   						  		    		header: '【..≼قــســم الجروبات≽..】',
@@ -38,7 +38,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		    ]
   						  			},
   						  			{
-  						  				highlight_label: 'yas',
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الاعضاء≽..】',
@@ -49,7 +49,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
   						        	},
   						  			{
-  						  				highlight_label: 'yas',
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الانــمـــي≽..】',
@@ -60,7 +60,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                     },
   						  			{
-  						  				highlight_label: 'yas',
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الترفيه≽..】',
@@ -71,7 +71,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
   						  			{
-  						  				highlight_label: 'yas',
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الايديت والصور≽..】',
@@ -82,7 +82,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
   						  			{
-  						  				highlight_label: 'yas',
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم التحويلات≽..】',
@@ -93,7 +93,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
   						  			{
-  						  				highlight_label: 'yas',
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الادوات≽..】',
@@ -104,7 +104,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
                                     {
-  						  				highlight_label: 'yas',
+  						  				highlight_label: '',
   						  				rows: [
   						  			{
   						  		    		header: '【..≼قــســم الــتــصــامـيـم≽..】',
@@ -114,10 +114,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		    	}
   						  				]
                                         },
-{
-  						  				highlight_label: 'yas',
-  						  				rows: [
-  						  			{
+                                    {
   						  		    		header: '【..≼قــســم الذكاء الاصطناعي≽..】',
   										      title: '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃',
   									    	  description: '【..≼قــســم الذكاء الاصطناعي≽..】',
@@ -125,8 +122,20 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		    	}
   						  				]
                                         },
-                                    {
-  						  				highlight_label: 'yas',
+  						  			{
+  						  				highlight_label: '',
+  						  				rows: [
+  						  					{
+  						  		    		header: '【..≼قــســم الدين≽..】',
+  										      title: '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃',
+  									    	  description: '【..≼قــســم الدين≽..】',
+  								    		  id: '.الدين'
+  						  		    	}
+  						  				]
+                                        
+                                        },
+  						  			{
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــسم الصــوتيـــات≽..】',
@@ -135,9 +144,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   								    		  id: '.الاصوات'
   						  		    	}
   						  				]
+                                        
                                         },
-                                    {
-  						  				highlight_label: 'yas',
+  						  			{
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الـتـحـمـيـلات≽..】',
@@ -146,9 +156,10 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   								    		  id: '.التحميلات'
   						  		    	}
   						  				]
+                                        
                                         },
-                                    {
-  						  				highlight_label: 'yas',
+  						  			{
+  						  				highlight_label: '',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الـبـنـك≽..】',
@@ -157,12 +168,12 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   								    		  id: '.البنك'
   						  		    	}
   						  				]
+                                        
                                         },
-
-{
-  						  				highlight_label: 'yas',
-  						  				rows: [
   						  			{
+  						  				highlight_label: '',
+  						  				rows: [
+  						  					{
   						  		    		header: '【..≼قــســم الـريـاكـشـانـات≽..】',
   										      title: '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃',
   									    	  description: '【..≼قــســم الـريـاكـشـانـات≽..】',
@@ -170,20 +181,8 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		    	}
   						  				]
                                         },
-
   						  			{
-  						  				highlight_label: 'yas',
-  						  				rows: [
-  						  					{
-  						  		    		header: '【..≼قــسم الـديـن≽..】',
-  										      title: '𝙼𝚅𝚁𝙾-𝙱𝙾𝚃',
-  									    	  description: '【..≼قــسم الـديـن≽..】',
-  								    		  id: '.الدين'
-  						  		    	}
-  						  				]
-                                        },
-                                    {
-  						  				highlight_label: 'yas',
+  						  				highlight_label: '【..≼الـمـطـور فـقـط≽..】',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الـمـطـور≽..】',
@@ -192,9 +191,9 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   								    		  id: '.قائمتي'
   						  		    	}
   						  				]
-                                        },
-  						  			{
-  						  				highlight_label: 'yas'',
+                                        }, 
+                                     {
+  						  				highlight_label: '【..≼كـل اقـسـام الـبـوت≽..】'',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼جـمـيـع الاقـسـام≽..】',
@@ -217,7 +216,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                               {
                                   name: 'cta_url',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: '【..≼كـل الـلـي يـخـصـنـي≽..】',
+                                      display_text: '【..≼كـل الـلـي يخصني≽..】',
                                       url: 'https://www.atom.bio/m_vro1',
                                       merchant_url: ''
                                   })
