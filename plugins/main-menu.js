@@ -27,7 +27,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		sections: [
   						  			{
   						  				title: 'List',
-  							  	    highlight_label: '',
+  							  	    highlight_label: 'yas',
   						  		    rows: [
   						  		    	{
   						  		    		header: '【..≼قــســم الجروبات≽..】',
@@ -38,7 +38,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		    ]
   						  			},
   						  			{
-  						  				highlight_label: '',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الاعضاء≽..】',
@@ -49,7 +49,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
   						        	},
   						  			{
-  						  				highlight_label: '',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الانــمـــي≽..】',
@@ -60,7 +60,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                     },
   						  			{
-  						  				highlight_label: '',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الترفيه≽..】',
@@ -71,7 +71,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
   						  			{
-  						  				highlight_label: '',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الايديت والصور≽..】',
@@ -82,7 +82,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
   						  			{
-  						  				highlight_label: '',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم التحويلات≽..】',
@@ -93,7 +93,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
   						  			{
-  						  				highlight_label: '',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الادوات≽..】',
@@ -104,7 +104,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
                                     {
-  						  				highlight_label: '',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  			{
   						  		    		header: '【..≼قــســم الــتــصــامـيـم≽..】',
@@ -115,7 +115,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
 {
-  						  				highlight_label: '',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  			{
   						  		    		header: '【..≼قــســم الذكاء الاصطناعي≽..】',
@@ -126,7 +126,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
                                     {
-  						  				highlight_label: '',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــسم الصــوتيـــات≽..】',
@@ -137,7 +137,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
                                     {
-  						  				highlight_label: '',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الـتـحـمـيـلات≽..】',
@@ -148,7 +148,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
                                     {
-  						  				highlight_label: '',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الـبـنـك≽..】',
@@ -160,7 +160,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                                         },
 
 {
-  						  				highlight_label: '',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  			{
   						  		    		header: '【..≼قــســم الـريـاكـشـانـات≽..】',
@@ -172,7 +172,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                                         },
 
   						  			{
-  						  				highlight_label: '',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــسم الـديـن≽..】',
@@ -183,7 +183,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
                                     {
-  						  				highlight_label: '【..≼الـمـطـور فـقـط≽..】'',
+  						  				highlight_label: 'yas',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الـمـطـور≽..】',
@@ -194,7 +194,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				]
                                         },
   						  			{
-  						  				highlight_label: '【..≼كـل اقـسـام الـبـوت≽..】'',
+  						  				highlight_label: 'yas'',
   						  				rows: [
   						  					{
   						  		    		header: '【..≼جـمـيـع الاقـسـام≽..】',
